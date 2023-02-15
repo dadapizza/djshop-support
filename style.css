@@ -1,0 +1,248 @@
+:root {
+    --bg-dark: #30343F;
+    --text-light: #E9E9E8;
+    --text-accent: #E59C15;
+    --bg-light: #F2F2F2;
+    --bg-lighter: #F7F7FC;
+    --text-dark: #272A33;
+    --text: 'Open Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-dark);
+    font-family: var(--text);
+    font-size: 14px;
+}
+
+                                                    /* header */
+
+header {
+    background-color: var(--bg-dark);
+    font-family: var(--text);
+    color: var(--bg-light);
+    height: 200px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px;
+}
+
+.nav-link:hover {
+    transition: 0.3s;
+    color: var(--text-accent);
+    cursor: pointer;
+}
+
+.bot-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box{
+	width: 1000px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 5px;
+    align-self: center;
+}
+
+.box > i {
+	font-size: 12px;
+	color: var(--text-light);
+    font-family: var(--text);
+}
+
+.box > input{
+	flex: 1;
+	height: 20px;
+	border: none;
+	outline: none;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.bot-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.bot-nav-item {
+    font-family: var(--text);
+    color: var(--bg-light);
+    margin: 0px 10px;
+    align-self: center;
+    font-weight: 500;
+}
+
+.support-navigation {
+    width: 100%;
+    background-color: var(--bg-light);
+    height: 50px;
+}
+
+.support-nav-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: space-around;
+}
+
+.support-nav-link {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-family: var(--text);
+    font-weight: 300;
+    text-align: center;
+}
+
+.support-nav-item {
+    height: 50px;
+}
+
+.support-nav-link:hover {
+    transition: 0.3s;
+    color: black;
+}
+
+                                                /* main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0px ;
+}
+
+.about-img {
+    width: 250px;
+}
+
+.text-container {
+    width: 72%;
+}
+
+.about-paragraph {
+    font-family: var(--text);
+    color: var(--text-dark);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.bold-text {
+    font-weight: 500;
+}
+
+.contacts-container {
+    background-color: var(--bg-light);
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts-info-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px;
+}
+
+.contacts-header {
+    align-self: flex-start;
+    font-family: var(--text);
+    font-size: 20px;
+    color: var(--text-accent);
+}
+
+.contacts-info-text {
+    align-self: flex-start;
+    font-family: var(--text);
+    color: var(--text-dark);
+    font-size: 16px;
+}
+
+.contact-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+    background-color: white;
+}
+
+.contact-item-card {
+    display: flex;
+    flex-direction: column;
+    width: 22%;
+}
+
+.contact-name {
+    display: flex;
+    flex-direction: row;
+    font-weight: 500;
+    align-self: center;
+}
+
+.contact-icon {
+    width: 25px;
+    margin: 10px;
+}
+
+.contact-text {
+    font-weight: 300;
+    text-align: justify;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-dark);
+    font-size: 14px;
+}
+
+.contact-link:hover {
+    color: var(--text-accent);
+}
+
+.contact-link-text {
+    color: var(--text-accent);
+}
+
+.bolder-text {
+    font-weight: 600;
+}
